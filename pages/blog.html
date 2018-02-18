@@ -1,0 +1,13 @@
+---
+title: Blog
+permalink: /blog
+---
+
+{% include header.html %}
+<br />
+<br />
+# Blog
+
+{% for post in site.posts %}
+  <p>{{ post.title }}</p>
+{% endfor %}
