@@ -1,0 +1,13 @@
+---
+title: Tags
+permalink: 'blog/tags'
+---
+
+{% include header.html %}
+<br />
+<h1>Tags</h1>
+<ul>
+  {% for site_tag in site.blog_tags %}
+    <li><a href="{{ site_tag.permalink }}" class="{% if site_tag.color %} bg--{{site_tag.color}}{% endif %}">{{ site_tag.title }}</a></li>
+  {% endfor %}
+</ul>
