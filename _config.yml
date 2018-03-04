@@ -3,6 +3,21 @@ paginate_path: "/blog/page:num/"
 plugins: [jekyll-paginate]
 
 collections:
-  work:
+  posts:
+    title: Posts
     output: true
+  work:
+    title: Work
     permalink: /:collection/:name
+    output: true
+  blog_tags:
+    title: Tags
+    output: true
+defaults:
+- scope:
+    path: ''
+    type: blog_tags
+  values:
+    layout: tag
+
+date_format: "%b %d, %Y"
