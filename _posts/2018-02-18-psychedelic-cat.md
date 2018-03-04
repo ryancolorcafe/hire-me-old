@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Psychedelic Cat
+tags: felidae mammal
 ---
 
 I will take some magic white, and a little bit of Vandyke brown and a little touch of yellow. Even trees need a friend. We all need friends. You got your heavy coat out yet? It's getting colder. It just happens - whether or not you worried about it or tried to plan it.

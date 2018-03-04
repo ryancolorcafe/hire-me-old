@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Groovy Cow
+tags: artiodactyla mammal
 ---
 
 And I will hypnotize that just a little bit. With practice comes confidence. Let's make a happy little mountain now.
